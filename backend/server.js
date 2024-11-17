@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://notes-app-six-sepia.vercel.app/",
     credentials: true,
   })
 );
