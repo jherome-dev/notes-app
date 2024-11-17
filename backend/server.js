@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "",
+    origin: "https://notes-app-six-sepia.vercel.app/",
     credentials: true,
   })
 );
