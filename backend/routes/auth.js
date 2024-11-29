@@ -30,9 +30,13 @@ router.get(
     const { user, token } = req.user;
     // Redirect to the client-side app with token and user data
     res.redirect(
+<<<<<<< HEAD
       `${
         process.env.FRONTEND_URL
       }/google/callback?token=${token}&user=${encodeURIComponent(
+=======
+      `${process.env.FRONTEND_URL}/google/callback?token=${token}&user=${encodeURIComponent(
+>>>>>>> c0b327f36c6713d63c14a689278599b86ea16a3f
         JSON.stringify(user)
       )}`
     );
