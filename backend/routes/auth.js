@@ -10,7 +10,7 @@ const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
+// const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
 
 const router = express.Router();
 
@@ -30,7 +30,9 @@ router.get(
     const { user, token } = req.user;
     // Redirect to the client-side app with token and user data
     res.redirect(
-      `${FRONTEND_URL}/google/callback?token=${token}&user=${encodeURIComponent(
+      `${
+        process.env.FRONTEND_URL
+      }/google/callback?token=${token}&user=${encodeURIComponent(
         JSON.stringify(user)
       )}`
     );
