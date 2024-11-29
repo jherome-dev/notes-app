@@ -1,1 +1,1 @@
-export const BASE_URL = "https://notes-app-backend-jrqyr64mi-mjheromes-projects.vercel.app";
+export const BASE_URL = "https://notes-app-backend-git-master-mjheromes-projects.vercel.app";
