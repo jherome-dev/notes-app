@@ -11,6 +11,11 @@
     {
       "src": "/note/(.*)",
       "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
     }
   ]
 }
+
