@@ -17,8 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin:
-      "https://notes-app-frontend-jhbn3hnpl-mjheromes-projects.vercel.app",
+    origin: process.env.FRONTEND_URL || "http://localhost:5173",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -42,3 +41,5 @@ app.use("/note", noteRoutes);
 const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+
+module.exports = app;
