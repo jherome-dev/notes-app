@@ -17,7 +17,9 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://notes-app-six-sepia.vercel.app",
+    origin:
+      "https://notes-app-frontend-jhbn3hnpl-mjheromes-projects.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
