@@ -7,7 +7,8 @@ const GoogleSignInButton = () => {
     e.preventDefault();
 
     // Redirect to Google for authentication
-    window.open("http://localhost:8000/auth/google", "_self");
+    const baseUrl = import.meta.env.VITE_BASE_URL;
+    window.open(`${baseUrl}/auth/google`, "_self");
   };
 
   return (
