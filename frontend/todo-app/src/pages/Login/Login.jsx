@@ -37,7 +37,7 @@ function Login() {
       console.log(response.data);
       if (response.data && response.data.token) {
         localStorage.setItem("token", response.data.token);
-        console.log("Token set:", localStorage.getItem("token"));
+        // console.log("Token set:", localStorage.getItem("token"));
         navigate("/dashboard");
       }
     } catch (error) {
