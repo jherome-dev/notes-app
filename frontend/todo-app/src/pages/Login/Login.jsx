@@ -3,6 +3,7 @@ import PasswordInput from "../../components/Input/PasswordInput";
 import { Link, useNavigate } from "react-router-dom";
 import { validateEmail } from "../../utils/helper";
 import axiosInstance from "../../utils/axiosInstance";
+import { IoArrowBack } from "react-icons/io5";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -54,7 +55,14 @@ function Login() {
 
   return (
     <>
-      <div className="flex items-center justify-center mt-28">
+      {/* Back Icon at Top Left */}
+      <button
+        onClick={() => navigate("/")}
+        className="absolute top-4 left-4 flex items-center text-lg text-gray-800 hover:text-indigo-600"
+      >
+        <IoArrowBack className="mr-2" />
+      </button>
+      <div className="flex items-center justify-center mt-52">
         <div className="w-96 border rounded bg-white px-7 py-10">
           <form onSubmit={handleLogin}>
             <h4 className="text-2xl mb-7">Login</h4>
@@ -76,7 +84,7 @@ function Login() {
               Login
             </button>
             <p className="text-sm text-center mt-4">
-              Not registered yet{" "}
+              Not registered yet?{" "}
               <Link to="/signup" className="font-medium text-primary underline">
                 Create an Account
               </Link>
