@@ -9,6 +9,8 @@ Features:
 
 User Authentication: Secure user login and registration.
 
+Google Authentication: Login with Google for seamless access.
+
 Create, Read, Update, Delete Notes: Full CRUD functionality for managing notes.
 
 File Uploads: Attach files to notes using Firebase storage.
