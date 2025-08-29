@@ -2,13 +2,6 @@ Notes App
 
 ![App Screenshot](assets/front-page.JPG)
 
-
-<p align="center">
-  <img src="assets/front-page.JPG" alt="App Screenshot" width="500"/>
-</p>
-
-
-
 Overview
 
 The Notes App is a MERN (MongoDB, Express, React, Node.js) stack-based application that allows users to create, edit, delete, and manage notes efficiently. Additionally, users can upload and attach files to their notes using Firebase. The frontend is built with React.js and Vite for a modern development experience, while the backend utilizes Node.js and Express for server-side logic. MongoDB serves as the database for storing user and note information.
