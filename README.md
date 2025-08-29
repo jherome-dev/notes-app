@@ -1,10 +1,10 @@
 Notes App
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/front-page.jpg)
 
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="App Screenshot" width="500"/>
+  <img src="assets/front-page.jpg" alt="App Screenshot" width="500"/>
 </p>
 
 
