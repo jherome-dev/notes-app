@@ -20,11 +20,11 @@ The app features authentication, Google login, responsive design, and real-time 
 
 🛠 Tech Stack
 
-Frontend:
+-Frontend:
 
-  ⚛️ React.js (Vite)
+  -⚛️ React.js (Vite)
   
-  🎨 Tailwind CSS
+  -🎨 Tailwind CSS
 
 Backend:
 
