@@ -25,16 +25,19 @@ Frontend:
   *⚛️ React.js (Vite)
   
   *🎨 Tailwind CSS
+  
 
 Backend:
 
   *🟢 Node.js
   
   *🚏 Express.js
+  
 
 Database:
 
   *🍃 MongoDB
+  
 
 File Storage:
 
