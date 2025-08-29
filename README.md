@@ -20,25 +20,25 @@ The app features authentication, Google login, responsive design, and real-time 
 
 🛠 Tech Stack
 
--Frontend:
+Frontend:
 
-  -⚛️ React.js (Vite)
+  *⚛️ React.js (Vite)
   
-  -🎨 Tailwind CSS
+  *🎨 Tailwind CSS
 
 Backend:
 
-  🟢 Node.js
+  *🟢 Node.js
   
-  🚏 Express.js
+  *🚏 Express.js
 
 Database:
 
-  🍃 MongoDB
+  *🍃 MongoDB
 
 File Storage:
 
-  🔥 Firebase
+  *🔥 Firebase
 
 
 File Storage
