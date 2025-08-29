@@ -4,7 +4,7 @@ Notes App
 
 
 <p align="center">
-  <img src="assets/front-page.jpg" alt="App Screenshot" width="500"/>
+  <img src="assets/front-page.JPG" alt="App Screenshot" width="500"/>
 </p>
 
 
