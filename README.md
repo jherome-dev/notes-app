@@ -22,23 +22,23 @@ The app features authentication, Google login, responsive design, and real-time 
 
 Frontend:
 
-⚛️ React.js (Vite)
-
-🎨 Tailwind CSS
+  ⚛️ React.js (Vite)
+  
+  🎨 Tailwind CSS
 
 Backend:
 
-🟢 Node.js
-
-🚏 Express.js
+  🟢 Node.js
+  
+  🚏 Express.js
 
 Database:
 
-🍃 MongoDB
+  🍃 MongoDB
 
 File Storage:
 
-🔥 Firebase
+  🔥 Firebase
 
 
 File Storage
