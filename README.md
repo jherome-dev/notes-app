@@ -2,49 +2,43 @@ Notes App
 
 ![App Screenshot](assets/front-page.JPG)
 
-Overview
+📌 Overview
 
-The Notes App is a MERN (MongoDB, Express, React, Node.js) stack-based application that allows users to create, edit, delete, and manage notes efficiently. Additionally, users can upload and attach files to their notes using Firebase. The frontend is built with React.js and Vite for a modern development experience, while the backend utilizes Node.js and Express for server-side logic. MongoDB serves as the database for storing user and note information.
+The Notes App is a MERN (MongoDB, Express, React, Node.js) stack-based application that allows users to create, edit, delete, and manage notes efficiently.
+It also includes file uploads via Firebase, enabling users to attach files to their notes.
 
+The app features authentication, Google login, responsive design, and real-time updates, making it simple yet powerful for daily note-taking.
 
-Features:
+✨ Features
 
-User Authentication: Secure user login and registration.
+✅ User Authentication – Secure login & registration
+✅ Google Authentication – Login with Google for seamless access
+✅ CRUD Notes – Create, Read, Update, Delete notes
+✅ File Uploads – Attach files to notes using Firebase Storage
+✅ Responsive UI – Optimized for desktop & mobile
+✅ Real-Time Updates – Smooth user experience
 
-Google Authentication: Login with Google for seamless access.
-
-Create, Read, Update, Delete Notes: Full CRUD functionality for managing notes.
-
-File Uploads: Attach files to notes using Firebase storage.
-
-Responsive Design: Optimized for various screen sizes.
-
-Real-Time Updates: Seamless and efficient user experience.
-
-
-
-Tech Stack
-
+🛠 Tech Stack
 
 Frontend:
 
-React.js: For building the user interface.
+⚛️ React.js (Vite)
 
-Vite: For a fast development environment.
-
-Tailwind CSS: For styling the application.
-
+🎨 Tailwind CSS
 
 Backend:
 
-Node.js: For server-side JavaScript.
+🟢 Node.js
 
-Express.js: For building RESTful APIs.
-
+🚏 Express.js
 
 Database:
 
-MongoDB: For storing user and note data.
+🍃 MongoDB
+
+File Storage:
+
+🔥 Firebase
 
 
 File Storage
