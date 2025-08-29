@@ -1,6 +1,6 @@
 Notes App
 
-![App Screenshot](assets/front-page.jpg)
+![App Screenshot]([assets/front-page.jpg](https://github.com/jherome-dev/notes-app/blob/master/assets/front-page.JPG?raw=true))
 
 
 <p align="center">
